@@ -11,7 +11,7 @@ GIT_COMMAND = ["git", "commit", "-am", "Auto Commit"]
 
 my_env = os.environ.copy()
 base = datetime.datetime.today()
-date_list = [base - datetime.timedelta(days=x) for x in range(35)]
+date_list = [base - datetime.timedelta(days=x) for x in range(365)]
 
 
 for i in date_list:
